@@ -1,0 +1,23 @@
+{
+  "name": "aegis",
+  "version": "1.0.0",
+  "description": "This is a project containing a public app, so developers can get up and running on HubSpot Developer Projects.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hubspot/ui-extensions": "^0.9.8",
+    "express": "^5.1.0",
+    "node-fetch": "^3.3.2",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {}
+}
